@@ -1,6 +1,6 @@
 # Usage
 
-sh update.sh <Apple ID> <Password>
+sh update.sh 'Apple ID' 'Password'
 
 # Notes
 
