@@ -1,6 +1,8 @@
 # Usage
 
-sh update.sh 'Apple ID' 'Password'
+Set two environment variables to provide your Apple ID credentials: `APPLE_ID` and `APPLE_ID_PASSWORD`.
+
+Run `./update.sh`
 
 # Notes
 
