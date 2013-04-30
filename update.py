@@ -35,7 +35,7 @@ def download_profiles(account, password, dst_dir):
     browser['theAccountName'] = account
     browser['theAccountPW'] = password
     response = browser.submit()
-    if response.code != 200 or response.geturl() != portal_url:
+    if response.code != 200:
         raise IOError('Could not submit login page')
 
     # Look at development and distribution profiles
